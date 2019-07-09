@@ -3,15 +3,17 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-previous: previous
 ---
 ## Upcoming Hackathons
 
-{% include upcoming-hackathon-events.html %}
+{% include upcoming-hackathon.html %}
 
 [View More Events](#){: .btn}
 
 ## Previous Hackathons
 
-{% include previous-hackathon-events.html %}
+{% include previous-hackathon.html %}
+
+[View More Past Events](#){: .btn}
+
 
