@@ -1,0 +1,30 @@
+.hero .stretch-container {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 0;
+  height: 400px;
+}
+
+.hero .stretch-container img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.hero .hero-text-content {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  left: 15%;
+  transform: translate(-15%, -50%);
+  margin: 0;
+}
+
+.hero .hero-text-content p {
+  max-width: 440px;
+  font-size: 2rem;
+}
