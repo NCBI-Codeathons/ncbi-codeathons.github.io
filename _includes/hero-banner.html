@@ -1,0 +1,11 @@
+<div class="hero">
+  {% for hero in site.data.hero %}
+  <div class="stretch-container">
+      <img src="{{ site.baseurl}}/img/{{ hero.image }}" />
+  </div>
+  <div class="hero-text-content">
+    <h1>{{ hero.title }}</h1>
+    <p>{{ hero.paragraph }}</p>
+  </div>
+  {% endfor %}
+</div> 
