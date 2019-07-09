@@ -731,8 +731,14 @@ ul.ncbi-inline-list-alt li:last-child::after {
 }
 
 @media screen and (max-width: 600px) {
-  .usa-nav.sidenav-mobile {
+  /* .usa-nav.sidenav-mobile {
     display: block; 
+  } */
+
+  .usa-nav.is-visible {
+    animation: slidein-left 0.3s ease-in-out;
+    display: -ms-flexbox;
+    display: flex;
   }
   
   .usa-mobile_nav-active > .usa-overlay.is-visible {
