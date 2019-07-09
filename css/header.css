@@ -1,0 +1,122 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.ncbi-header {
+  background-color: rgba(22, 74, 138, 0.95);
+  z-index: 10; 
+}
+  
+.ncbi-header a {
+  color: inherit;
+  text-decoration: none; 
+}
+  
+.ncbi-header a:hover {
+  color: #ffffff;
+  text-decoration: underline; 
+}
+  
+.ncbi-header .header-button {
+  width: auto;
+  margin: 1.5rem 0.3rem;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 1.4rem;
+  font-weight: normal;
+  white-space: nowrap;
+  padding: 0.8rem; 
+}
+    
+.ncbi-header .agencies {
+  float: left;
+  width: 70%;
+  position: relative; 
+}
+    
+.ncbi-header .agencies ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none; 
+}
+
+@media screen and (min-width: 600px) {
+  .ncbi-header .agencies {
+    width: 70%; 
+  } 
+}
+
+@media screen and (min-width: 600px) {
+  .ncbi-header .agencies .full {
+    display: inline; 
+  }
+
+  .ncbi-header .agencies .abbr {
+    display: none; 
+  } 
+}
+
+.ncbi-header .agencies .homepage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer; 
+}
+
+.ncbi-header .agencies .nih {
+  float: left;
+  margin: 1.5rem 1.2rem 1.5rem 0;
+  background: #005295 url("../img/nih-logo-white.svg") no-repeat center;
+  height: 3.4rem;
+  width: 5.6rem; 
+}
+      
+@media screen and (min-width: 600px) {
+  .ncbi-header .agencies .nih {
+    margin-right: 1.5rem;
+    height: 3.7rem;
+    width: 5.9rem; 
+  } 
+}
+
+.ncbi-header .agencies .nlm {
+  display: table-cell;
+  height: 6.4rem;
+  min-height: 3.4rem;
+  vertical-align: middle;
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin-top: 1.5rem;
+  padding-top: .2rem; 
+}
+
+@media screen and (min-width: 600px) {
+  .ncbi-header .agencies .nlm {
+    display: block;
+    font-size: 2rem;
+    height: 1em;
+    min-height: 1em;
+    line-height: 1.0;
+    padding-top: .2rem;
+    margin-bottom: 0; 
+  } 
+}
+
+.ncbi-header .agencies .ncbi {
+  display: none; 
+}
+
+@media screen and (min-width: 600px) {
+  .ncbi-header .agencies .ncbi {
+    display: block;
+    font-size: 1.4rem;
+    color: #e1f3f8;
+    margin-top: .3rem; 
+  } 
+}
+

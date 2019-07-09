@@ -1,0 +1,227 @@
+html {
+  box-sizing: border-box; 
+}
+
+*, *::after, *::before {
+  box-sizing: inherit; 
+}
+
+.ncbi-footer {
+  border-top: 1px solid #aeb0b5; 
+}
+  
+.ncbi-footer h3, .ncbi-footer h4 {
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  color: #323a45; 
+}
+  
+.ncbi-footer h4 {
+  font-size: 2rem; 
+}
+
+.ncbi-footer a {
+  color: #112e51;
+  text-decoration: none; 
+}
+
+.ncbi-footer a:hover {
+  text-decoration: underline; 
+}
+
+.ncbi-footer a:visited {
+  color: #112e51; 
+}
+
+.ncbi-footer address {
+  font-size: 2rem;
+  margin-bottom: 1.5rem; 
+}
+
+.ncbi-footer .icon-section {
+  background-color: #f1f1f1;
+  padding: 1.5rem 0; 
+}
+
+.ncbi-footer .icon-list {
+  display: block;
+  width: 100%;
+  font-size: 2rem; 
+}
+    
+@media screen and (min-width: 720px) {
+  .ncbi-footer .icon-list {
+    display: inline-block;
+    width: auto; 
+  } 
+}
+    
+.ncbi-footer .icon-list li {
+  display: inline-block;
+  height: 32px;
+  margin-right: 30px; 
+}
+  
+.ncbi-footer .icon-list li a {
+  display: block;
+  width: 32px;
+  height: 100%;
+  line-height: 3rem;
+  text-indent: 4rem;
+  overflow: hidden; 
+}
+  
+@media screen and (min-width: 720px) {
+  .ncbi-footer .icon-list li {
+    margin-bottom: 0; 
+  } 
+}
+
+@media screen and (min-width: 720px) {
+  .ncbi-footer .icon-list .li-blog {
+    margin-left: 30px; 
+  } 
+}
+
+@media screen and (min-width: 720px) {
+  .ncbi-footer .icon-list .li-support {
+    float: right; 
+  } 
+}
+
+.ncbi-footer .icon-list-elastic {
+  width: 100%; 
+}
+  
+@media screen and (min-width: 720px) {
+    .ncbi-footer .icon-list-elastic {
+      width: calc(100% - 310px); 
+    } 
+  }
+
+.ncbi-footer #footer_facebook {
+  background: url(../img/icons-sprite.png) 0 0 no-repeat; 
+}
+
+.ncbi-footer #footer_facebook:hover {
+  background: url(../img/icons-sprite.png) 0 -32px no-repeat; 
+}
+
+.ncbi-footer #footer_twitter {
+  background: url(../img/icons-sprite.png) 0 -64px no-repeat; 
+}
+
+.ncbi-footer #footer_twitter:hover {
+  background: url(../img/icons-sprite.png) 0 -96px no-repeat; 
+}
+
+.ncbi-footer #footer_linkedin {
+  background: url(../img/icons-sprite.png) 0 -128px no-repeat; 
+}
+
+.ncbi-footer #footer_linkedin:hover {
+  background: url(../img/icons-sprite.png) 0 -160px no-repeat; 
+}
+
+.ncbi-footer #footer_youtube {
+  background: url(../img/icons-sprite.png) 0 -192px no-repeat; 
+}
+
+.ncbi-footer #footer_youtube:hover {
+  background: url(../img/icons-sprite.png) 0 -224px no-repeat; 
+}
+
+.ncbi-footer #footer_github {
+  background: url(../img/icons-sprite.png) 0 -256px no-repeat; 
+}
+
+.ncbi-footer #footer_github:hover {
+  background: url(../img/icons-sprite.png) 0 -288px no-repeat; 
+}
+
+.ncbi-footer #footer_blog, .ncbi-footer #footer_support {
+  width: auto; 
+}
+
+@media screen and (min-width: 720px) {
+  .ncbi-footer #footer_blog, .ncbi-footer #footer_support {
+    text-indent: 4rem; 
+  }
+
+  .ncbi-footer #footer_support {
+    background: url(../img/icons-sprite.png) 0 -384px no-repeat; 
+  }
+
+  .ncbi-footer #footer_support:hover {
+    background: url(../img/icons-sprite.png) 0 -416px no-repeat; 
+  }
+
+  .ncbi-footer #footer_blog {
+    background: url(../img/icons-sprite.png) 0 -320px no-repeat; 
+  }
+
+  .ncbi-footer #footer_blog:hover {
+    background: url(../img/icons-sprite.png) 0 -352px no-repeat; 
+  } 
+}
+
+@media screen and (max-width: 720px) {
+  .ncbi-footer #footer_blog, .ncbi-footer #footer_support {
+    text-indent: 0; 
+  } 
+}
+
+.ncbi-footer .ncbi-section {
+  padding: 1.5rem 0; 
+}
+    
+@media screen and (min-width: 600px) {
+  .ncbi-footer .ncbi-section {
+    padding: 3rem 0; 
+  } 
+}
+    
+.ncbi-footer .ncbi-section .ncbi {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #5b616b;
+  margin-bottom: 1.5rem; 
+}
+      
+@media screen and (min-width: 600px) {
+  .ncbi-footer .ncbi-section .ncbi {
+    border-bottom: none; 
+  } 
+}
+      
+.ncbi-footer .ncbi-section .ncbi .ncbi-full-name {
+  width: 80%;
+  font-size: 3rem;
+  color: #323a45; 
+}
+  
+.ncbi-footer .gov-agencies {
+  text-align: center;
+  padding: 1.5rem 0;
+  border-top: 1px solid #5b616b; 
+}
+    
+@media screen and (min-width: 600px) {
+  .ncbi-footer .gov-agencies {
+    padding: 3rem 0;
+    border-top: none; 
+  } 
+}
+
+.ncbi-footer .gov-agencies li {
+  display: block;
+  margin-bottom: 1.5rem;
+  margin-right: 0; 
+}
+    
+@media screen and (min-width: 600px) {
+  .ncbi-footer .gov-agencies li {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 2.5rem; 
+  } 
+}
+
