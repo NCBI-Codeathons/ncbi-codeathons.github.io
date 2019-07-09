@@ -5,4 +5,4 @@
 layout: default
 ---
 
-# Hello
+{% include hackathon-events.html %}

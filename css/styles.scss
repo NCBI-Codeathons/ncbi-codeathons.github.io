@@ -36,3 +36,64 @@
     }
   }
 }
+
+.hackathon-event {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #212121;
+  padding: 3rem 0;
+
+  .hackathon-date {
+    display: flex;
+    flex-direction: column;
+
+    .day {
+      margin: 0;
+      color: #0071bc;
+    }
+
+    .month,
+    .year {
+      font-weight: 700;
+      color: #5b616b;
+    }
+  }
+
+  .hackathon-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.btn {
+  -webkit-font-smoothing: antialiased;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #0071bc;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  height: 40px;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    color: #fff;
+  }
+}
