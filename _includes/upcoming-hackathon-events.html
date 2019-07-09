@@ -1,0 +1,11 @@
+{% for upcoming-hackathon-event in site.data.upcoming-hackathon-event %}
+<div class="hackathon-event">
+    <span class="hackathon-date">
+        <span class="month">{{ upcoming-hackathon-event.month }}</span>
+        <h3 class="day">{{ upcoming-hackathon-event.day }}</h3>
+        <span class="year">{{ upcoming-hackathon-event.year }}</span>
+    </span>
+    <h3 class="hackathon-title"><a href="{{upcoming-hackathon-event.link}}">{{upcoming-hackathon-event.title}}</a></h3>
+    <a class="btn">Sign Up</a>
+</div>
+{% endfor %}
