@@ -16,4 +16,12 @@ layout: default
 
 [View More Past Events](#){: .btn}
 
+## Hackathon Products
+
+{% include hackathon-products.html %}
+
+[View More Products](#){: .btn}
+
+
+
 
