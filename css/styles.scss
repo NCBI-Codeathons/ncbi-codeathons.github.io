@@ -67,6 +67,16 @@
     margin: 0;
   }
 
+  &.previous {
+    justify-content: flex-start;
+    .hackathon-date {
+      width: 75px;
+    }
+    .hackathon-title {
+      margin-left: 2rem;
+    }
+  }
+
   &.product {
     .product-description {
       p {
