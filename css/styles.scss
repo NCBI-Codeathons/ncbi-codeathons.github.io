@@ -47,6 +47,7 @@
   .hackathon-date {
     display: flex;
     flex-direction: column;
+    width: 75px;
 
     .day {
       margin: 0;
@@ -67,11 +68,27 @@
     margin: 0;
   }
 
+  &.upcoming {
+    position: relative;
+    justify-content: flex-start;
+    @media screen and (max-width: 971px) {
+      justify-content: space-between;
+    }
+    .hackathon-title {
+      margin: 0 2rem;
+    }
+    .btn {
+      right: 0;
+      position: absolute;
+      @media screen and (max-width: 971px) {
+        position: relative;
+        height: auto;
+      }
+    }
+  }
+
   &.previous {
     justify-content: flex-start;
-    .hackathon-date {
-      width: 75px;
-    }
     .hackathon-title {
       margin-left: 2rem;
     }
@@ -79,6 +96,9 @@
 
   &.product {
     .product-description {
+      @media screen and (max-width: 971px) {
+        margin-right: 2rem;
+      }
       p {
         margin: 0;
       }
@@ -112,5 +132,11 @@
   &:active,
   &:visited {
     color: #fff;
+    background-color: #205493;
   }
+}
+
+.toggle {
+  margin: 0 auto;
+  display: block;
 }
