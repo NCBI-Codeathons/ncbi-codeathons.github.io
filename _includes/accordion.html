@@ -1,0 +1,12 @@
+<ul class="usa-accordion">
+  {% for accordion in site.data.accordion %}
+  <li>
+    <button aria-controls="resource-{{accordion.resource}}" aria-expanded="true" class="usa-accordion-button">
+      {{accordion.title}}
+    </button>
+    <div class="usa-accordion-content" id="resource-{{accordion.id}}" aria-hidden="false">
+      <p>{{accordion.content}}</p>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
