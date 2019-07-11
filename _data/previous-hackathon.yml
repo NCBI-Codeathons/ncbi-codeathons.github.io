@@ -1,7 +1,7 @@
 - month: "May"
-  day: "8-9"
+  day: "8-10"
   year: "2019"
-  title: "Women-led BioData Science Hackathon at NIH (NCBI) -- Applications Closed!"
+  title: "Women-led BioData Science Hackathon at NIH (NCBI) -- Applications closed!"
   link: "#"
 
 - month: "April"
@@ -10,14 +10,14 @@
   title: "BioIT World FAIR Data Hackathon -- Applications Closed!"
   link: "#"
 
-- month: "April"
-  day: "8-10"
-  year: "2019"
-  title: "2nd nf-core Hackathon, QBiC Tübingen/Germany"
-  link: "#"
-
 - month: "March"
   day: "25-27"
   year: "2019"
   title: "Pangenome and Haplotype Hackathon at UCSC! (NCBI)"
+  link: "#"
+
+- month: "March"
+  day: "11-13"
+  year: "2019"
+  title: "RNA-Seq in the Cloud hackathon at UNC (NCBI) -- Applications Closed!"
   link: "#"

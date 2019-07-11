@@ -1,4 +1,5 @@
 ---
+about: about.md
 ---
 
 <!DOCTYPE html>
@@ -9,7 +10,15 @@
     <div class="usa-overlay"></div>
     {% include header.html %}
     {% include navigation.html %}
-    {% include hero-banner.html %}
+    {% if page.title == 'About' %}
+      {% include hero-banner.html image="placeholder.png" title="About" paragraph="Ipsum Lorem" %}
+    {% elsif page.title == 'Products' %}
+      {% include hero-banner.html image="placeholder.png" title="Products" paragraph="Ipsum Lorem" %}
+    {% elsif page.title == 'Resources' %}
+      {% include hero-banner.html image="placeholder.png" title="Resources" paragraph="Ipsum Lorem" %}
+    {% else %}
+      {% include hero-banner.html image="placeholder.png" title="NCBI Hackathons" paragraph="Bringing people together to build tools to or perform advanced bioinformatics analysis." %}
+    {% endif %}
     <main id="main-content">
       <section class="usa-section">
         <div class="usa-grid">

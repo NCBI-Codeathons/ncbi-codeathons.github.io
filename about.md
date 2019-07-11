@@ -3,7 +3,6 @@ layout: default
 title: About
 permalink: /about
 ---
-
 # About
 
 ## Goals
