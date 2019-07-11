@@ -150,7 +150,18 @@
   }
 }
 
-.toggle {
+.toggle,
+button {
   margin: 0 auto;
   display: block;
+
+  a {
+    color: #fff;
+    &:hover,
+    &:focus, 
+    &:active,
+    &:visited {
+      color: #fff;
+    }
+  }
 }

@@ -12,13 +12,12 @@ layout: default
 
 {% include previous-hackathon.html %}
 
-<button class="previous toggle">View More Previous Events</button>
 
 ## Hackathon Products
 
 {% include hackathon-products.html %}
 
-<button class="product toggle">View More Products</button>
+<button><a href="{{ site.baseurl}}/products">View More Products</a></button>
 
 
 
