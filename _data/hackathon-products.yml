@@ -1,11 +1,35 @@
 - title: "ConsensusML"
   paragraph: "ConsensusML"
+  link: "#"
 
 - title: "The-Broad-Institute-Single-Cell-RNA-Seq-Data-Set"
   paragraph: "Visualize cancer genomes with FAIR single-cell RNA-seq data"
+  link: "#"
 
 - title: "TheHumanPangenome"
   paragraph: "A Strategy for Building and Using a Human Reference Pangenome"
+  link: "#"
 
 - title: "personalgenomics"
   paragraph: "Empowering individuals to analyze their personal genomics data using publicly available tools"
+  link: "#"
+
+- title: "Another Product"
+  paragraph: "Another Product Description"
+  link: "#"
+  hidden: "hidden"
+
+- title: "Another Product"
+  paragraph: "Another Product Description"
+  link: "#"
+  hidden: "hidden"
+
+- title: "Another Product"
+  paragraph: "Another Product Description"
+  link: "#"
+  hidden: "hidden"
+
+- title: "Another Product"
+  paragraph: "Another Product Description"
+  link: "#"
+  hidden: "hidden"

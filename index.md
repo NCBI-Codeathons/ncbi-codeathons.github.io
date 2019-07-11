@@ -6,19 +6,19 @@ layout: default
 
 {% include upcoming-hackathon.html %}
 
-<button class="toggle">View More Events</button>
+<button class="upcoming toggle">View More Events</button>
 
 ## Previous Hackathons
 
 {% include previous-hackathon.html %}
 
-<button class="toggle">View Previous Events</button>
+<button class="previous toggle">View More Previous Events</button>
 
 ## Hackathon Products
 
 {% include hackathon-products.html %}
 
-<button class="toggle">View More Products</button>
+<button class="product toggle">View More Products</button>
 
 
 

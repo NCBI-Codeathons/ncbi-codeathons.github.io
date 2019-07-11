@@ -26,8 +26,8 @@
     position: absolute;
     top: 50%;
     color: #fff;
-    left: 15%;
-    transform: translate(-15%, -50%);
+    left: 18%;
+    transform: translate(-17%, -50%);
     margin: 0;
 
     p {
@@ -71,8 +71,15 @@
   &.upcoming {
     position: relative;
     justify-content: flex-start;
+    opacity: 1;
+    transition: all 0.35s ease;
     @media screen and (max-width: 971px) {
       justify-content: space-between;
+    }
+    &.hidden {
+      opacity: 0;
+      height: 0;
+      padding: 0;
     }
     .hackathon-title {
       margin: 0 2rem;
@@ -95,6 +102,8 @@
   }
 
   &.product {
+    opacity: 1;
+    transition: all 0.35s ease;
     .product-description {
       @media screen and (max-width: 971px) {
         margin-right: 2rem;
@@ -102,6 +111,11 @@
       p {
         margin: 0;
       }
+    }
+    &.hidden {
+      opacity: 0;
+      height: 0;
+      padding: 0;
     }
   }
 }
