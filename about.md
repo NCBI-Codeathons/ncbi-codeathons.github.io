@@ -9,17 +9,6 @@ permalink: /about
 
 Bringing people together to build tools to or perform advanced bioinformatics analysis.
 
-## Staff
-
-Alexander Lastnamovich<br/>
-<a href="mailto:lastnamovich.alexander@ncbi.nih.com">lastnamovich.alexander@ncbi.nih.com</a>
-
-Alexander Lastnamovich<br/>
-<a href="mailto:lastnamovich.alexander@ncbi.nih.com">lastnamovich.alexander@ncbi.nih.com</a>
-
-Alexander Lastnamovich<br/>
-<a href="mailto:lastnamovich.alexander@ncbi.nih.com">lastnamovich.alexander@ncbi.nih.com</a>
-
 ## Contact Us
 
 <a href="mailto:ncbihackathons@mail.nih.gov">ncbihackathons@mail.nih.gov</a><br/>
