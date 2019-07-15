@@ -27,6 +27,8 @@ Alexander Lastnamovich<br/>
 
 ## Previous Partners
 
+{% include previous-partners.html %}
+
 # FAQs
 
 {% include accordion.html %}

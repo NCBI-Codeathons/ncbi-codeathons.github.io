@@ -165,3 +165,19 @@ button {
     }
   }
 }
+
+.previous-partners {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  row-gap: 1rem;
+  column-gap: 1rem;
+
+  figure {
+    margin: 0;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
