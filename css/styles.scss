@@ -174,6 +174,9 @@ button {
 
   figure {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     img {
       display: block;
