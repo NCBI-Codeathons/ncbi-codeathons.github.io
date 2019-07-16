@@ -20,6 +20,9 @@ title: Home
 
 <!-- <button><a href="{{ site.baseurl}}/products">View More Products</a></button> -->
 
+<!--have show more script here so it only runs on home page -->
+<script src="{{ site.baseurl}}/js/show-more.js"></script>
+
 
 
 
