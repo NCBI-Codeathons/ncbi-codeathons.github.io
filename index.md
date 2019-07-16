@@ -18,7 +18,7 @@ title: Home
 
 {% include hackathon-products.html %}
 
-<button><a href="{{ site.baseurl}}/products">View More Products</a></button>
+<!-- <button><a href="{{ site.baseurl}}/products">View More Products</a></button> -->
 
 
 
