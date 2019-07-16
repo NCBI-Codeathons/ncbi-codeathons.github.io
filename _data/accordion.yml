@@ -1,10 +1,10 @@
-- title: "Tutorial Name"
-  content: "Ipsum Lorem"
+- title: "Who is a hackathon for?"
+  content: "Everyone!  We encourage researchers, coders and data scientists, especially women, at any stage of their data science journey to apply. Past hackathon participants have ranged from students and postdocs with a working knowledge of scripting (e.g. Shell, Python, R) to those already engaged in the use of large datasets or in the development of informatics tools, code, or pipelines."
   resource: "1"
   id: "1"
 
-- title: "Tutorial Name"
-  content: "Ipsum Lorem"
+- title: "What do I get out of a hackathon as a participant?"
+  content: "The opportunity to code as part of a team and network with people from diverse backgrounds.   Exposure to tools and datasets available from NCBI and the broader bioinformatics community. Gain insights into good practices for data stewardship and good coding practices.  The opportunity for leadership experience."
   resource: "2"
   id: "2"
 
