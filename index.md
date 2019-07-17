@@ -18,10 +18,10 @@ title: Home
 
 {% include hackathon-products.html %}
 
-<!-- <button><a href="{{ site.baseurl}}/products">View More Products</a></button> -->
+<!-- <button><a href="/products">View More Products</a></button> -->
 
 <!--have show more script here so it only runs on home page -->
-<script src="{{ site.baseurl}}/js/show-more.js"></script>
+<script src="/js/show-more.js"></script>
 
 
 
