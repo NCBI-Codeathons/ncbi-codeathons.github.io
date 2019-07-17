@@ -3,7 +3,7 @@ layout: default
 title: About
 permalink: /about
 ---
-# About
+## About
 
 ## Goal/What is an NCBI Hackathon
 
