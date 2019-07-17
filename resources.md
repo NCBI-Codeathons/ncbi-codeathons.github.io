@@ -3,7 +3,7 @@ layout: default
 title: Resources
 permalink: /resources
 ---
-## Resources
+## Past Hackathon Projects
 
 [Github Repo for NCBI Hackathons](https://github.com/NCBI-Hackathons)
 
