@@ -4,6 +4,7 @@
 
 .hero {
   position: relative;
+  height: 400px;
 
   .stretch-container {
     position: relative;
@@ -23,12 +24,17 @@
   }
 
   .hero-text-content {
-    position: absolute;
-    top: 50%;
     color: #fff;
-    left: 18%;
-    transform: translate(-17%, -50%);
-    margin: 0;
+    transform: translateY(-210%);
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    @media screen and (max-width: 600px) {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+    }
 
     p {
       max-width: 440px;
@@ -181,6 +187,59 @@ button {
     img {
       display: block;
       width: 100%;
+    }
+  }
+}
+
+.calendar {
+  display: flex;
+  border: 1px solid #000;
+  margin: 4rem 0;
+  flex-direction: column;
+
+  .month {
+    text-align: center;
+    padding: 2rem;
+    background-color: #0071bc;
+    font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .days-of-week {
+    display: flex;
+    justify-content: space-around;
+
+    .day {
+      font-weight: 700;
+      flex: 1;
+      text-align: center;
+    }
+  }
+
+  .calendar-week {
+    display: flex;
+    justify-content: space-around;
+
+    .calendar-day {
+      flex: 1;
+      border-top: 1px solid #000;
+      border-left: 1px solid #000;
+      padding: 1rem;
+      min-height: 90px;
+      &:first-child {
+        border-left: 0;
+      }
+
+      &.disabled {
+        background: #d6d7d9;
+      }
+
+      .day {
+        display: flex;
+        justify-content: flex-end;
+      }
     }
   }
 }
