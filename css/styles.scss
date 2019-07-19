@@ -184,3 +184,64 @@ button {
     }
   }
 }
+
+.calendar {
+  display: flex;
+  border: 1px solid #000;
+  margin: 4rem 0;
+  flex-direction: column;
+
+  .month {
+    text-align: center;
+    padding: 2rem;
+    background-color: #0071bc;
+    font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .days-of-week {
+    display: flex;
+    justify-content: space-around;
+
+    .day {
+      font-weight: 700;
+      flex: 1;
+      text-align: center;
+    }
+  }
+
+  .calendar-week {
+    display: flex;
+    justify-content: space-around;
+
+    .calendar-day {
+      flex: 1;
+      border-top: 1px solid #000;
+      border-left: 1px solid #000;
+      padding: 1rem;
+      min-height: 90px;
+      &:first-child {
+        border-left: 0;
+      }
+
+      &.disabled {
+        background: #d6d7d9;
+      }
+
+      .day {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .event {
+        background-color: #0071bc;
+        color: #fff;
+        font-size: 1.5rem;
+        border-radius: 20px; 
+        padding: 1rem;
+      }
+    }
+  }
+}
