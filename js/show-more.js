@@ -2,10 +2,10 @@ const show = () => {
   const hiddenUpcomingEvents = [...document.querySelectorAll('.upcoming.hidden')];
   const upcomingToggle = document.querySelector('.upcoming.toggle');
 
-  if (hiddenUpcomingEvents.length <= 4) {
-    upcomingToggle.style.display = 'none';
-  } else {
+  if (hiddenUpcomingEvents.length >= 1) {
     upcomingToggle.style.display = 'block';
+  } else {
+    upcomingToggle.style.display = 'none';
   }
 
   upcomingToggle.addEventListener('click',() => { 
