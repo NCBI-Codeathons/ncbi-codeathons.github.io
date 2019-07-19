@@ -13,6 +13,7 @@
   <div class="calendar-week">
     {% for calendar-day in calendar.calendar-days %}
     <div class="calendar-day {{calendar-day.disabled}}">
+      <div class="mobile-day">{{ calendar-day.mobile-day }}</div>
       <div class="day">{{ calendar-day.day }}</div>
       <div class="{{calendar-day.active}}">{{ calendar-day.event }}</div>
     </div>
