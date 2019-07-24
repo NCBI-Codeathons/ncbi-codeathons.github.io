@@ -43,6 +43,62 @@
   }
 }
 
+.dropdown {
+  background: url('../uswds/img/angle-arrow-down-primary.png') no-repeat;
+  text-align: left;
+  background-color: #f1f1f1;
+  background-position: right 2rem center;
+  color: #212121;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  padding: 0 4.5rem 0 0;
+  background-size: 1.5rem;
+  margin: 0 !important;
+  position: relative;
+
+  &.active {
+    background: url('../uswds/img/angle-arrow-up-primary.png') no-repeat;
+    text-align: left;
+    background-color: #f1f1f1;
+    background-position: right 2rem center;
+    color: #212121;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0 4.5rem 0 0;
+    background-size: 1.5rem;
+    margin: 0 !important;
+    position: relative;
+  }
+
+  ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    left: 0;
+    display: none;
+
+    &.shown {
+      visibility: visible;
+      opacity: 1;
+      display: block;
+      background-color: #fff;
+      z-index: 99;
+
+      li {
+        padding: 0.5rem 0;
+        width: 100%;
+
+        a {
+          color: #0071bc;
+        }
+      }
+    }
+  }
+}
+
 .hackathon-event {
   display: flex;
   justify-content: space-between;
