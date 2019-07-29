@@ -99,6 +99,24 @@
   }
 }
 
+.usa-sidenav-sub_list {
+  .dropdown {
+    width: 100%;
+
+    &.active {
+      background-position: top 1rem right 2rem;
+      position: relative;
+    }
+
+    ul {
+      margin-top: 0;
+      background-color: #f1f1f1;
+      list-style-type: none;
+      width: 100%;
+      position: relative;
+    }
+  }
+}
 .hackathon-event {
   display: flex;
   justify-content: space-between;
