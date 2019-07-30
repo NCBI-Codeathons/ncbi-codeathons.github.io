@@ -1,0 +1,23 @@
+<div class="calendar">
+  <div class="month">{{ include.month }}</div>
+  <div class="days-of-week">
+    <div class="day">Sunday</div>
+    <div class="day">Monday</div>
+    <div class="day">Tuesday</div>
+    <div class="day">Wednesday</div>
+    <div class="day">Thursday</div>
+    <div class="day">Friday</div>
+    <div class="day">Saturday</div>
+  </div>
+  {% for calendar in site.data.calendar %}
+  <div class="calendar-week">
+    {% for calendar-day in calendar.calendar-week %}
+    <div class="calendar-day {{calendar-day.disabled}}">
+      <div class="mobile-day">{{ calendar-day.mobile-day }}</div>
+      <div class="day">{{ calendar-day.day }}</div>
+      <div class="{{calendar-day.active}}"><a href="{{calendar-day.link}}">{{ calendar-day.event }}</a></div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>

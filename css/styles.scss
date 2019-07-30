@@ -284,6 +284,9 @@ button {
   .days-of-week {
     display: flex;
     justify-content: space-around;
+    @media screen and (max-width: 971px) {
+      display: none;
+    }
 
     .day {
       font-weight: 700;
@@ -295,6 +298,9 @@ button {
   .calendar-week {
     display: flex;
     justify-content: space-around;
+    @media screen and (max-width: 971px) {
+      flex-direction: column;
+    }
 
     .calendar-day {
       flex: 1;
@@ -302,6 +308,9 @@ button {
       border-left: 1px solid #000;
       padding: 1rem;
       min-height: 90px;
+      @media screen and (max-width: 971px) {
+        border-left: 0;
+      }
       &:first-child {
         border-left: 0;
       }
@@ -310,9 +319,29 @@ button {
         background: #d6d7d9;
       }
 
+      .mobile-day {
+        display: none;
+        @media screen and (max-width: 971px) {
+          display: flex;
+          justify-content: flex-end;
+        }
+      }
+
       .day {
         display: flex;
         justify-content: flex-end;
+      }
+
+      .event {
+        background-color: #0071bc;
+        color: #fff;
+        font-size: 1.5rem;
+        border-radius: 20px; 
+        padding: 1rem;
+
+        a {
+          color: #fff;
+        }
       }
     }
   }
