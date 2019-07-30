@@ -11,11 +11,11 @@
   </div>
   {% for calendar in site.data.calendar %}
   <div class="calendar-week">
-    {% for calendar-day in calendar.calendar-days %}
+    {% for calendar-day in calendar.calendar-week %}
     <div class="calendar-day {{calendar-day.disabled}}">
       <div class="mobile-day">{{ calendar-day.mobile-day }}</div>
       <div class="day">{{ calendar-day.day }}</div>
-      <div class="{{calendar-day.active}}">{{ calendar-day.event }}</div>
+      <div class="{{calendar-day.active}}"><a href="{{calendar-day.link}}">{{ calendar-day.event }}</a></div>
     </div>
     {% endfor %}
   </div>
