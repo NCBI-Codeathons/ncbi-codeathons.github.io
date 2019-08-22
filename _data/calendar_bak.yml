@@ -1,0 +1,121 @@
+- calendar:
+  calendar-week:
+    - day: "30"
+      disabled: "disabled"
+      mobile-day: "Sun"
+
+    - day: "1"
+      mobile-day: "Mon"
+
+    - day: "2"
+      mobile-day: "Tue"
+
+    - day: "3"
+      mobile-day: "Wed"
+
+    - day: "4"
+      mobile-day: "Thu"
+
+    - day: "5"
+      mobile-day: "Fri"
+
+    - day: "6"
+      mobile-day: "Sat"
+
+- calendar:
+  calendar-week:
+    - day: "7"
+      mobile-day: "Sun"
+
+    - day: "8"
+      mobile-day: "Mon"
+
+    - day: "9"
+      mobile-day: "Tue"
+
+    - day: "10"
+      active: "event"
+      event: "Computational Medicine Hackathon"
+      link: "#"
+      mobile-day: "Wed"
+
+    - day: "11"
+      mobile-day: "Thu"
+
+    - day: "12"
+      mobile-day: "Fri"
+
+    - day: "13"
+      mobile-day: "Sat"
+
+- calendar:
+  calendar-week:
+    - day: "14"
+      mobile-day: "Sun"
+
+    - day: "15"
+      mobile-day: "Mon"
+
+    - day: "16"
+      mobile-day: "Tue"
+
+    - day: "17"
+      mobile-day: "Wed"
+
+    - day: "18"
+      mobile-day: "Thu"
+
+    - day: "19"
+      mobile-day: "Fri"
+
+    - day: "20"
+      mobile-day: "Sat"
+
+- calendar:
+  calendar-week:
+    - day: "21"
+      mobile-day: "Sun"
+
+    - day: "22"
+      mobile-day: "Mon"
+
+    - day: "23"
+      mobile-day: "Tue"
+
+    - day: "24"
+      mobile-day: "Wed"
+
+    - day: "25"
+      mobile-day: "Thu"
+
+    - day: "26"
+      mobile-day: "Fri"
+
+    - day: "27"
+      mobile-day: "Sat"
+
+- calendar:
+  calendar-week:
+    - day: "28"
+      mobile-day: "Sun"
+
+    - day: "29"
+      mobile-day: "Mon"
+
+    - day: "30"
+      mobile-day: "Tue"
+
+    - day: "31"
+      mobile-day: "Wed"
+
+    - day: "1"
+      disabled: "disabled"
+      mobile-day: "Thu"
+
+    - day: "2"
+      disabled: "disabled"
+      mobile-day: "Fri"
+
+    - day: "3"
+      disabled: "disabled"
+      mobile-day: "Sat"
