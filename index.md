@@ -20,7 +20,7 @@ title: Home
 
 <!-- <button><a href="/products">View More Products</a></button> -->
 
-{% include calendar.html month="July" %}
+{% include calendar.html month="August" %}
 
 <!--have show more script here so it only runs on home page -->
 <script src="/js/show-more.js"></script>
