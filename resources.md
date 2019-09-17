@@ -3,11 +3,11 @@ layout: default
 title: Resources
 permalink: /resources
 ---
-## Past Hackathon Projects
+## Past Codeathons Projects
 
 [GitHub Repo for NCBI Hackathons](https://github.com/NCBI-Hackathons)
 
-## Community Hackathons
+## Community Codeathons
 
 [NBDC/DCCLS Biohackathon](https://docs.google.com/forms/d/e/1FAIpQLScMxAsoC_6XDhxh4XTYQkVvSlw5q1kxvtmsxi9jU_Lze4i5FQ/closedform)<br />
 Fukuoka, Japan<br />
