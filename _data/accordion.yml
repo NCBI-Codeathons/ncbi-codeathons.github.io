@@ -1,9 +1,9 @@
-- title: "Who is a hackathon for?"
+- title: "Who is a codeathon for?"
   content: "Everyone!  We encourage researchers, coders and data scientists, especially women, at any stage of their data science journey to apply. Past hackathon participants have ranged from students and postdocs with a working knowledge of scripting (e.g. Shell, Python, R) to those already engaged in the use of large datasets or in the development of informatics tools, code, or pipelines."
   resource: "1"
   id: "1"
 
-- title: "What do I get out of a hackathon as a participant?"
+- title: "What do I get out of a codeathon as a participant?"
   content: "The opportunity to code as part of a team and network with people from diverse backgrounds.   Exposure to tools and datasets available from NCBI and the broader bioinformatics community. Gain insights into good practices for data stewardship and good coding practices.  The opportunity for leadership experience."
   resource: "2"
   id: "2"
@@ -13,7 +13,7 @@
   resource: "3"
   id: "3"
 
-- title: "What are some useful Hackathon Logistics?"
+- title: "What are some useful codeathon Logistics?"
   content: "A NCBI hackathon is typically a three-day event that runs from 9 am – 5 pm each day, with the potential to extend into the evening hours. Each day, we come together to discuss progress on each of the topics and share models, tools and datasets relevant to the hackathon projects.   There are also optional social events to further network outside your working hackathon team.  Our hackathons may also include the opportunity to learn about bioinformatics best practices, coding styles, and useful tools to the community through short presentations and hands on demos."
   resource: "4"
   id: "4"
