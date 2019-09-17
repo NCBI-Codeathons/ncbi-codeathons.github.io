@@ -3,18 +3,18 @@ layout: default
 title: Home
 ---
 
-## Upcoming Hackathons
+## Upcoming Codeathons
 
 {% include upcoming-hackathon.html %}
 
 <button class="upcoming toggle">View More Events</button>
 
-## Previous Hackathons
+## Previous Codeathons
 
 {% include previous-hackathon.html %}
 
 
-## Hackathon Products
+## Codeathons Products
 
 {% include hackathon-products.html %}
 
