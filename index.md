@@ -14,7 +14,7 @@ title: Home
 {% include previous-hackathon.html %}
 
 
-## Codeathons Products
+## Codeathon Products
 
 {% include hackathon-products.html %}
 
