@@ -5,7 +5,7 @@ permalink: /resources
 ---
 ## Past Codeathons Projects
 
-[GitHub Repo for NCBI Hackathons](https://github.com/NCBI-Hackathons)
+[GitHub Repo for NCBI Codeathons](https://github.com/NCBI-Codeathons)
 
 ## Community Codeathons
 
