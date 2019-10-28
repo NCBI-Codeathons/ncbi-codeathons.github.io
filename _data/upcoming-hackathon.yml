@@ -1,8 +1,8 @@
-- month: "October"
-  day: "11-13"
+- month: "November"
+  day: "4-6"
   year: "2019"
-  title: "Structural Variant Hackathon at Baylor College of Medicine, Houston Texas"
-  link: "https://www.hgsc.bcm.edu/events/hackathon"
+  title: "Virus Hunting in the Cloud Part 2 at University of Maryland"
+  link: "https://edwards.sdsu.edu/research/category/research/"
 
 - month: "November"
   day: "8-10"
@@ -10,11 +10,6 @@
   title: "U-Hack Med at UTSW"
   link: "https://www.u-hackmed.org/"
 
-- month: "November"
-  day: "4-6"
-  year: "2019"
-  title: "Virus Hunting in the Cloud Part 2 at University of Maryland"
-  link: "https://edwards.sdsu.edu/research/category/research/"
 
 # Example of upcoming event with the hidden property that will trigger the show more button
 # - month: "November"
