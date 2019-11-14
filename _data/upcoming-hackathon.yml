@@ -1,21 +1,14 @@
-- month: "November"
-  day: "4-6"
-  year: "2019"
-  title: "Virus Hunting in the Cloud Part 2 at University of Maryland"
-  link: "https://edwards.sdsu.edu/research/category/research/"
-
-- month: "November"
-  day: "8-10"
-  year: "2019"
-  title: "U-Hack Med at UTSW"
-  link: "https://www.u-hackmed.org/"
-  
 - month: "January"
   day: "8-10"
   year: "2020"
   title: "NIH Biomedical Data Science Codeathon at Carnegie Mellon!"
   link: "https://support.nlm.nih.gov/CMU_codeathon_Jan2020/"
 
+- month: "January"
+  day: "15-17"
+  year: "2020"
+  title: "Single Cell in the Cloud codeathon at NYGC"
+  link: "https://ncbiinsights.ncbi.nlm.nih.gov/2019/11/13/nygc-jan-2020-rfp/"
 
 # Example of upcoming event with the hidden property that will trigger the show more button
 # - month: "November"
