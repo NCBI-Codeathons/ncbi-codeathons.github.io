@@ -1,8 +1,14 @@
 - month: "January"
   day: "8-10"
   year: "2020"
-  title: "NIH Biomedical Data Science Codeathon at Carnegie Mellon!"
+  title: "NIH Biomedical Data Science Codeathon at Carnegie Mellon"
   link: "https://support.nlm.nih.gov/CMU_codeathon_Jan2020/"
+
+- month: "January"
+  day: "16-17"
+  year: "2020"
+  title: "Pangenome metadata scopeathon in San Diego"
+  link: "https://ncbiinsights.ncbi.nlm.nih.gov/2019/11/19/metadata-scopeathon/"
 
 - month: "January"
   day: "15-17"
