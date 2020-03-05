@@ -3,6 +3,12 @@
   year: "2020"
   title: "Computational Medicine Codeathon and AWS workshop at Chapel Hill"
   link: "https://ncbiinsights.ncbi.nlm.nih.gov/2020/02/10/codeathon_chapel_hill/"
+  
+  - month: "April"
+  day: "20-21"
+  year: "2020"
+  title: "BioIT World Hackathon in Boston, MA"
+  link: "https://www.bio-itworldexpo.com/fair-data-hackathon/"
 
 # Example of upcoming event with the hidden property that will trigger the show more button
 # - month: "November"
