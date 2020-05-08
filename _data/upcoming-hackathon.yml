@@ -1,11 +1,5 @@
-- month: "March"
-  day: "10-13"
-  year: "2020"
-  title: "Computational Medicine Codeathon and AWS workshop at Chapel Hill"
-  link: "https://ncbiinsights.ncbi.nlm.nih.gov/2020/02/10/codeathon_chapel_hill/"
-
-- month: "April"
-  day: "20-21"
+- month: "October"
+  day: "5-6"
   year: "2020"
   title: "BioIT World Hackathon in Boston (RESCHEDULED)"
   link: "https://www.bio-itworldexpo.com/fair-data-hackathon"  
