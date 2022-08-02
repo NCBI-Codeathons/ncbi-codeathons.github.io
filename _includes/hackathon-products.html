@@ -1,9 +1,0 @@
-{% for hackathon-products in site.data.hackathon-products %}
-<div class="hackathon-event product {{hackathon-products.hidden}}">
-  <div class="product-description">
-      <h3 class="hackathon-title"><a href="{{hackathon-products.link}}">{{hackathon-products.title}}</a></h3>
-      <p>{{hackathon-products.paragraph}}</p>
-  </div>
-  <a href="{{hackathon-products.link}}" class="btn">GitHub</a>
-</div>
-{% endfor %}
