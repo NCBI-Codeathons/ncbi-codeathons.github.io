@@ -17,7 +17,3 @@ You can email the codeathon coordinators at [codeathons@ncbi.nlm.nih.gov](mailto
 
 <!--have show more script here so it only runs on home page -->
 <script src="/js/show-more.js"></script>
-
-
-
-
